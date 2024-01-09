@@ -70,6 +70,7 @@
     <Content Include="AjaxPrograms\LiveTimer.aspx" />
     <Content Include="Assets\bootstrap.css" />
     <Content Include="CRUD1.aspx" />
+    <Content Include="DemoPrograms\BlogWithMultiPhotos\AddNewTraining.aspx" />
     <Content Include="GridViewMultiOptions\MultiRecordDelete.aspx" />
     <Content Include="Multi_Record_Delete_GridView.aspx" />
     <Content Include="Web.config" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="CRUD1.aspx.designer.cs">
       <DependentUpon>CRUD1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoPrograms\BlogWithMultiPhotos\AddNewTraining.aspx.cs">
+      <DependentUpon>AddNewTraining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoPrograms\BlogWithMultiPhotos\AddNewTraining.aspx.designer.cs">
+      <DependentUpon>AddNewTraining.aspx</DependentUpon>
     </Compile>
     <Compile Include="GridViewMultiOptions\MultiRecordDelete.aspx.cs">
       <DependentUpon>MultiRecordDelete.aspx</DependentUpon>
@@ -121,6 +129,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
